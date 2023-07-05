@@ -16,10 +16,11 @@ const Coin = () => {
     useEffect(() => {
         axios.get(url).then((res) => {
             setCoin(res.data)
+            console.log(res.data[0])
         }).catch((error) => {
             console.log(error)
         })
-    }, [])
+    }, [url])
 
     return (
         <div>
