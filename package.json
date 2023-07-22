@@ -1,5 +1,4 @@
 {
-  
   "name": "go-crypto",
   
   "version": "0.1.0",
@@ -54,7 +53,9 @@
   "web-vitals": "^2.1.4"
   
   },
+
   
+
   "scripts": {
   
     
